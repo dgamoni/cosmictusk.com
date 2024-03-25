@@ -25,6 +25,10 @@ function KTT_load_angularjs_scripts() {
   wp_enqueue_script( THEME_TEXTDOMAIN . '-angular-aria.min');
   wp_enqueue_script( THEME_TEXTDOMAIN . '-angular-material.min');
   wp_enqueue_script( THEME_TEXTDOMAIN . '-main-app');
+  //wp_enqueue_script( THEME_TEXTDOMAIN . '-angular-smooth-scroll.min');
+  wp_enqueue_script( THEME_TEXTDOMAIN . '-angular-scroll');
+  //wp_enqueue_script( THEME_TEXTDOMAIN . '-angular-disqus.min');
+  //wp_enqueue_script( THEME_TEXTDOMAIN . '-dirDisqus');
 
 }
 add_action( 'wp_enqueue_scripts', 'KTT_load_angularjs_scripts', 4 );

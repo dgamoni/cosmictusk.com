@@ -262,6 +262,9 @@ get_header();
             comments_template();
           endif;
         ?>
+        
+        <script type='text/javascript' src='https://the-cosmic-tusk.disqus.com/embed.js'></script>
+
         </div>
         </div>
 
