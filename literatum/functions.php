@@ -52,7 +52,17 @@ function add_custom_css() {
 	<script>
 		jQuery(document).ready(function($) {
 
+
+        $(window).bind('popstate', function (event) {
+          console.log(document.location.pathname);
+          if (document.location.pathname === '/'){
+            location.reload();
+          }
+        });
+
 		});
+
+
 	</script>
 	<style>
         #disqus-count-wrap:hover {
@@ -70,6 +80,40 @@ background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba
   background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.5) 90%);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%), linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.5) 90%);
 }
+.backdrop-gradient-1 {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiP…dpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==), url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiP…Igd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g);
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0.2)), color-stop(100%, rgba(0, 0, 0, 0.5))), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(50%, rgba(0, 0, 0, 0.1)), color-stop(90%, rgba(0, 0, 0, 0.5)));
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.5) 90%);
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.5) 90%);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%), linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.5) 90%);
+}
+.bg-loady-large {
+  -webkit-transition: background-image 0.2s ease-in-out;
+transition: background-image 0.2s ease-in-out;
+}
+#mp-menu #categories-4.widget_categories ul li {
+    text-align: left;
+  }
 	</style>
 	<?php
+}
+
+function add_tohead_base_parametr(){
+    ?>
+    <base href="/">
+    <?php
+}
+if(!is_admin()) {
+    add_action( 'wp_print_scripts', 'add_tohead_base_parametr' );
+  }
+
+add_filter( 'script_loader_src', 'hb_remove_wp_version_from_src' );
+function hb_remove_wp_version_from_src( $src ) {
+   global $wp_version;
+   parse_str( parse_url( $src, PHP_URL_QUERY ), $query );
+   if ( ! empty($query['ver']) && $query['ver'] === $wp_version ) {
+      $src = remove_query_arg('ver', $src);
+   }
+   return $src;
 }

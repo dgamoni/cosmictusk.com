@@ -251,7 +251,7 @@ get_header();
 
 
 
-<?php //var_dump($get_permalink()); ?>
+
 
 
         <div id="comments-container" class="margin-top-20 site-body-content-wrap site-palette-yin-2-color padding-top-50 padding-bottom-50 text-align-center site-palette-yang-3-background-color">
@@ -259,39 +259,9 @@ get_header();
         <?php
           // If comments are open or we have at least one comment, load up the comment template
           if ( comments_open() || '0' != get_comments_number() ) :
-            //comments_template();
+            comments_template();
           endif;
         ?>
-        
-        <!-- <script type='text/javascript' src='https://the-cosmic-tusk.disqus.com/embed.js'></script> -->
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'the-cosmic-tusk';
-    var disqus_identifier = '<?php echo $post->ID; ?>';
-    var disqus_url = '<?php echo get_permalink($post->ID); ?>';
-  var disqus_config = function () { 
-    this.language = "en";
-  };
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-    /* * * Disqus Reset Function * * */
-    var reset = function (newIdentifier, newUrl, newTitle, newLanguage) {
-        DISQUS.reset({
-            reload: true,
-            config: function () {
-                this.page.identifier = newIdentifier;
-                this.page.url = newUrl;
-                this.page.title = newTitle;
-                this.language = newLanguage;
-            }
-        });
-    };
-</script>
         </div>
         </div>
 

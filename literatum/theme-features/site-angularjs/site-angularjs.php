@@ -46,17 +46,8 @@ function KTT_add_angularjs_app() {
   	* Controller de main_app
     * TODO: Filtro de libs
   	*/
-  	
-  	main_app.controller('main_app_controller',  function($scope, $compile, $http, $q, $timeout, $mdSidenav, $document) {
-  	//main_app.controller('main_app_controller',  function($scope, $compile, $http, $q, $timeout, $mdSidenav, $location, $anchorScroll) {
+  	main_app.controller('main_app_controller',  function($scope, $compile, $http, $q, $timeout, $mdSidenav) {
 
-
-    
-    
-        //$scope.gotoBottom = function() {
-          //$location.hash('comments-container');
-          //$anchorScroll();
-        //};
   	      	<?php
   	      	/**
   	      	* Este hook lo utilizaremos para añadir funciones adicionales a la app principal
@@ -65,14 +56,8 @@ function KTT_add_angularjs_app() {
   	      	do_action('THEME_angularjs_main_app');
   	      	?>
 
-
   	});
 
-        
-    		
-
-    		
-    	
   </script>
   <?php
 

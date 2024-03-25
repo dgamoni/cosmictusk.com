@@ -147,14 +147,11 @@ function KTT_post_cover($post = '') {
                 && isset($template->options['displays']['post_comments_count'])
                 && $template->options['displays']['post_comments_count']
               )  {?>
-
-              <!-- <a ng-click="gotoBottom()"> -->
-              
-                  <span id="disqus-count-wrap" class=" margin-left-5  ornament-point-before-amper" data-disqus-url="<?php echo get_permalink();?>">
-                    <i class="material-icons">comment</i> <span class="disqus-comment-count"> <?php printf( _nx( 'One Comment', '%1$s Comments', get_comments_number(), 'comments title', THEME_TEXTDOMAIN ), number_format_i18n( get_comments_number() ) );?></span>
-                  </span>
-              
-              
+              <span onclick="document.location+='#comments-container';return false;" ng-click="gotoBottom()">
+                <span id="disqus-count-wrap" class=" margin-left-5  ornament-point-before-amper" data-disqus-url="<?php echo get_permalink();?>">
+                  <i class="material-icons">comment</i> <span class="disqus-comment-count"> <?php printf( _nx( 'One Comment', '%1$s Comments', get_comments_number(), 'comments title', THEME_TEXTDOMAIN ), number_format_i18n( get_comments_number() ) );?></span>
+                </span>
+              </span>
               <?php } ?>
 
               <?php if (

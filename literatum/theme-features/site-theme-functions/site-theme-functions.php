@@ -317,7 +317,44 @@ function KTT_get_featured_image_from_current_posts() {
 }
 
 
+function KTT_get_featured_image_from_current_posts_onlyhome() {
 
+      /**
+      * Si hemos llegado hasta aqui significa que la categoria no tiene imagen definida, por lo tanto
+      * vamos a obtener los ultimos 10-15 posts pertenecientes a la categoria y a extraer
+      * la imagen destacada de alguno de sus posts para utilizarla como imagen de la categoria
+      */
+      //$args = array('post_type' => 'post', 'post_status' => 'publish', 'cat' => $category_id, 'posts_per_page' => 15);
+      //$q = new WP_Query($args);
+      //$posts = $q->posts;
+      global $wp_query;
+
+      // RANDOM!
+      $posts = '';
+      if ($wp_query->posts) {
+        $posts = $wp_query->posts;
+        //shuffle($posts);
+      }
+
+
+      /**
+      * Itineramos por cada post y extraemos la primera featured image que encontremos
+      */
+      $arr_att = array();
+
+      if ($posts) foreach ($posts[0] as $post) {
+          $attach_id = get_post_thumbnail_id($post->ID);
+          $out = '9485';
+          $arr_att[0] = '9485';
+          $arr_att[1] = $attach_id;
+          shuffle($arr_att);
+          //if ($attach_id) return $attach_id;
+          return $arr_att[0];
+      }
+
+      return false;
+
+}
 
 /**
 * Esta funcion se encarga de devolver el attachment id de la imagen que tengamos

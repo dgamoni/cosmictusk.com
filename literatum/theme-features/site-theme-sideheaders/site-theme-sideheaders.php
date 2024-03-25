@@ -17,7 +17,8 @@ function KTT_display_sideheader($object = '') {
   $featured_image_id = '';
   if (is_category() || is_tag()) $featured_image_id = KTT_get_category_featured_image_id(get_queried_object()->term_id);
   elseif (is_author()) $featured_image_id = KTT_get_user_featured_image_id();
-  elseif (is_home() || is_front_page()) $featured_image_id = KTT_get_featured_image_from_current_posts();
+  //elseif (is_home() || is_front_page()) $featured_image_id = KTT_get_featured_image_from_current_posts();
+  elseif (is_home() || is_front_page()) $featured_image_id = KTT_get_featured_image_from_current_posts_onlyhome();
   elseif (is_page() || is_single()) $featured_image_id = get_post_thumbnail_id();
   elseif (is_archive() || is_search()) $featured_image_id = KTT_get_featured_image_from_current_posts();
 
