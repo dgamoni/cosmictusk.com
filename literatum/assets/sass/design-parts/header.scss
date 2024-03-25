@@ -1,0 +1,21 @@
+
+#site-header-wrap {
+  margin-bottom:-100px;
+  top:0;
+  position:relative;
+  z-index:1;
+
+}
+
+.menu-site-menu-container ul li a {
+  color: #fff;
+}
+.menu-site-menu-container ul li:before {
+  color: #fff;
+  margin-right: 5px;
+}
+.menu-site-menu-container ul li + li {
+  margin-left: 10px;
+}
+.menu-site-menu-container ul  ul {display:none}
+.bottom-menu-container ul ul {display:none}

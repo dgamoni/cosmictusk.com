@@ -1,0 +1,159 @@
+
+/**
+* Estilos relacionados con el content del post y pagina
+*/
+html .site-body-content {
+
+       p,
+       span,
+       h1,
+       h2,
+       h3,
+       h4,
+       h5,
+       h6,
+       ul,
+       ol,
+       hr,
+       table,
+       dl,
+       address,
+       code,
+       blockquote,
+       pre {
+        margin:auto;
+        max-width:740px;
+        padding-left:40px;
+        padding-right: 40px;
+        text-align:left;
+      }
+
+      a span {padding-left:0;padding-right:0;}
+
+      /**
+      * El figure se usa para cosas especiales como imágenes con captions
+      */
+      figure {
+        margin:auto;
+        padding-top:25px;
+        padding-bottom:25px;
+        display:block;
+      }
+
+      figure.alignleft, figure.alignright {margin:0;display:inline-block;max-width:50%;}
+      figure.alignleft {margin-right:1.5em;float:left;}
+      figure.alignright{margin-left:1.5em;float:right;}
+
+      figure.wp-caption img {width:100% !important; height: auto !important}
+
+      figcaption {
+        margin: 0.8em 20px;
+        font-size: 0.9em;
+      }
+
+      /**
+      * Este código evita que nuestras imagenes se salgan del div si son mas grandes
+      */
+      img, figure {
+        max-width:100%;
+        height:auto !important;
+      }
+
+      .link-chip {
+        background-color:rgba(0,0,0,0.05);
+        &:hover {background-color:rgba(0,0,0,0.10);}
+      }
+
+
+      /**
+      * Listas
+      */
+      ul, ol {padding:12px;list-style-position: inside;}
+      ul li {list-style-type: disc;margin-left:50px;}
+      ol li {list-style-type: decimal;margin-left:50px;}
+      ul li::before, ol li::before {
+       opacity:0.7;
+       display: inline-block;
+       font-size:0.9em;
+       font-family:sans-serif;
+      }
+
+      blockquote {
+        margin-top:20px;
+        margin-bottom:20px;
+          position: relative;
+          font-style:italic;
+          background-color:rgba(0,0,0,0.03);
+      }
+      blockquote:before, blockquote:after {
+          position: absolute;
+          width: 60px;
+          height: 60px;
+          font-size: 180px;
+          line-height: 1em;
+          text-align:left;
+          vertical-align:middle;
+          opacity:0.2;
+          font-style:normal;
+      }
+      blockquote:before {
+          top: -20px;
+          left: -25px;
+          content: "\201C";
+      }
+      blockquote:after {
+          bottom: 0;
+          right: 0;
+          content: "\201D";
+      }
+
+
+      /**
+      * Tables
+      */
+      table {
+        td, th {padding:10px;font-size:0.9em}
+        tr:nth-child(even) {background-color:rgba(0,0,0,0.05);}
+        tr {padding-left:20px;padding-right:20px;}
+        tbody {
+          display:block;
+          padding:0px 0px;
+          margin:0 40px;
+          border-style:solid;
+          border-width:1px;
+          border-color:rgba(0, 0, 0, 0.08);
+        }
+      }
+
+      /**
+      * Definition lists
+      */
+      dl {
+
+        dt {font-weight:600;}
+        dd {margin-top:4px;margin-left:20px;font-size:0.9em;}
+        dd + dt {margin-top:20px;}
+
+      }
+
+      /**
+      * Code
+      */
+      code, pre {
+        font-family:courier, sans-serif;
+        padding:0;
+        background-color:black;
+        color:white;
+        font-size:0.8em;
+        padding:5px 10px;
+        border-radius:3px;
+      }
+
+      /**
+      * Address
+      */
+      address {
+        text-align:left;
+      }
+
+}

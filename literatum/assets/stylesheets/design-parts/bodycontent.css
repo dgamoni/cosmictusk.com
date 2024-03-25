@@ -1,0 +1,179 @@
+@charset "UTF-8";
+/**
+* Estilos relacionados con el content del post y pagina
+*/
+html .site-body-content {
+  /**
+  * El figure se usa para cosas especiales como imágenes con captions
+  */
+  /**
+  * Este código evita que nuestras imagenes se salgan del div si son mas grandes
+  */
+  /**
+  * Listas
+  */
+  /**
+  * Tables
+  */
+  /**
+  * Definition lists
+  */
+  /**
+  * Code
+  */
+  /**
+  * Address
+  */
+}
+html .site-body-content p,
+html .site-body-content span,
+html .site-body-content h1,
+html .site-body-content h2,
+html .site-body-content h3,
+html .site-body-content h4,
+html .site-body-content h5,
+html .site-body-content h6,
+html .site-body-content ul,
+html .site-body-content ol,
+html .site-body-content hr,
+html .site-body-content table,
+html .site-body-content dl,
+html .site-body-content address,
+html .site-body-content code,
+html .site-body-content blockquote,
+html .site-body-content pre {
+  margin: auto;
+  max-width: 740px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: left;
+}
+html .site-body-content a span {
+  padding-left: 0;
+  padding-right: 0;
+}
+html .site-body-content figure {
+  margin: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: block;
+}
+html .site-body-content figure.alignleft, html .site-body-content figure.alignright {
+  margin: 0;
+  display: inline-block;
+  max-width: 50%;
+}
+html .site-body-content figure.alignleft {
+  margin-right: 1.5em;
+  float: left;
+}
+html .site-body-content figure.alignright {
+  margin-left: 1.5em;
+  float: right;
+}
+html .site-body-content figure.wp-caption img {
+  width: 100% !important;
+  height: auto !important;
+}
+html .site-body-content figcaption {
+  margin: 0.8em 20px;
+  font-size: 0.9em;
+}
+html .site-body-content img, html .site-body-content figure {
+  max-width: 100%;
+  height: auto !important;
+}
+html .site-body-content .link-chip {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+html .site-body-content .link-chip:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+html .site-body-content ul, html .site-body-content ol {
+  padding: 12px;
+  list-style-position: inside;
+}
+html .site-body-content ul li {
+  list-style-type: disc;
+  margin-left: 50px;
+}
+html .site-body-content ol li {
+  list-style-type: decimal;
+  margin-left: 50px;
+}
+html .site-body-content ul li::before, html .site-body-content ol li::before {
+  opacity: 0.7;
+  display: inline-block;
+  font-size: 0.9em;
+  font-family: sans-serif;
+}
+html .site-body-content blockquote {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  font-style: italic;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+html .site-body-content blockquote:before, html .site-body-content blockquote:after {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  font-size: 180px;
+  line-height: 1em;
+  text-align: left;
+  vertical-align: middle;
+  opacity: 0.2;
+  font-style: normal;
+}
+html .site-body-content blockquote:before {
+  top: -20px;
+  left: -25px;
+  content: "\201C";
+}
+html .site-body-content blockquote:after {
+  bottom: 0;
+  right: 0;
+  content: "\201D";
+}
+html .site-body-content table td, html .site-body-content table th {
+  padding: 10px;
+  font-size: 0.9em;
+}
+html .site-body-content table tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+html .site-body-content table tr {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+html .site-body-content table tbody {
+  display: block;
+  padding: 0px 0px;
+  margin: 0 40px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.08);
+}
+html .site-body-content dl dt {
+  font-weight: 600;
+}
+html .site-body-content dl dd {
+  margin-top: 4px;
+  margin-left: 20px;
+  font-size: 0.9em;
+}
+html .site-body-content dl dd + dt {
+  margin-top: 20px;
+}
+html .site-body-content code, html .site-body-content pre {
+  font-family: courier, sans-serif;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-size: 0.8em;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+html .site-body-content address {
+  text-align: left;
+}

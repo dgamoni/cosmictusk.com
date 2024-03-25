@@ -1,0 +1,210 @@
+
+/* ##################################################################### */
+/* ##################### sidebar menu ################################## */
+/* ##################################################################### */
+/* ---------------- */
+#mp-menu .widget {
+  padding: 20px 50px;
+}
+
+#mp-menu .widget {
+  margin: 0 0 1.5em;
+}
+
+/* Make sure select elements fit in widgets */
+#mp-menu .widget select {
+  max-width: 100%;
+}
+
+#mp-menu .widget {
+  border-style: solid;
+  border-bottom-color: rgba(0, 0, 0, 0.3);
+  border-bottom-width: 1px;
+  font-family: 'PT Sans', Lato, oxygen, 'helvetica neue' ,heveltica, arial, sans-serif;
+}
+
+#mp-menu .widget + .widget {
+  border-top-color: rgba(255, 255, 255, 0.03);
+  border-top-width: 1px;
+  margin: 0;
+}
+
+#mp-menu .widget:last-child {
+  border-bottom-width: 0;
+}
+
+#mp-menu .widget ul {
+  margin: 5px 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#mp-menu .widget ul li + li {
+  margin-top: 4px;
+}
+
+/* widget custom menu */
+#mp-menu .widget_nav_menu ul {
+  line-height: 1.1em;
+  margin: 0px 0 0px 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#mp-menu .widget_nav_menu ul li a {
+  font-family: 'PT Sans', Lato, oxygen, 'helvetica neue' ,heveltica, arial, sans-serif;
+  font-size: 15px;
+  display: inline-block;
+  padding: 3px 0;
+  margin: 0;
+  font-weight: 400;
+}
+
+#mp-menu .widget_nav_menu ul li a {
+  font-size: 17px;
+  font-weight: 500;
+  padding: 4px 0;
+}
+
+#mp-menu .widget_nav_menu li a:hover {
+  text-decoration: none !important;
+}
+
+#mp-menu .widget_nav_menu li a:before {
+  display: none;
+  padding-right: 10px;
+  display: inline-block;
+}
+
+#mp-menu .widget_nav_menu li {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: block;
+}
+
+#mp-menu .widget_nav_menu li:before {
+  margin-right: 8px;
+}
+
+#mp-menu .widget_nav_menu ul ul {
+  margin-left: 20px;
+  padding-top: 10px;
+}
+
+#mp-menu .widget_nav_menu li.featured {
+  margin-bottom: 8px;
+}
+
+#mp-menu .widget_nav_menu li.featured a {
+  font-size: 20px;
+}
+
+#mp-menu .widget_nav_menu li a:hover:after {
+  opacity: 1;
+}
+
+/* widget search */
+#mp-menu .widget_search .search-submit,
+#mp-menu .widget_search .screen-reader-text,
+#mp-menu .widget_search .widget-title {
+  display: none;
+}
+
+#mp-menu .widget_search {
+  padding: 0px 0px !important;
+  margin: 0;
+}
+
+#mp-menu .widget_search input[type=search] {
+  width: 100%;
+  padding: 15px 25px;
+  font-family: 'PT Sans', Lato, oxygen, 'helvetica neue', heveltica, arial, sans-serif;
+  font-size: 14px;
+  border-style: solid;
+  border-width: 0;
+  border-radius: 0px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* widget text */
+#mp-menu .widget_text {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/* widget meta */
+#mp-menu .widget_meta ul {
+  margin: 0;
+  padding: 0;
+}
+
+#mp-menu .widget_meta ul li {
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 13px;
+}
+
+/* widget categories */
+#mp-menu .widget_categories ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+#mp-menu .widget_categories ul li {
+  text-align: right;
+  position: relative;
+  overflow: hidden;
+  font-size: 13px;
+}
+
+#mp-menu .widget_categories ul li a {
+  display: inline-block;
+  float: left;
+  font-size: 16px;
+}
+
+/* SIDEBAR FOOTER --------------------------------------- */
+footer#colophon {
+  background-color: rgba(0, 0, 0, 0.1);
+  clear: both;
+  padding: 5px 20px;
+  border-style: solid;
+  border-width: 0;
+  border-top-color: rgba(0, 0, 0, 0.3);
+  border-top-width: 1px;
+}
+
+footer#colophon a {
+  text-decoration: none;
+}
+
+footer#colophon .footer-firm {
+  text-align: right;
+  line-height: 1.4em;
+  margin-bottom: 5px;
+}
+
+footer#colophon .footer-firm p {
+  margin: 0;
+  padding: 0;
+}
+
+footer#colophon .site-info {
+  display: block !important;
+}
+
+footer#colophon .site-info > .int {
+  font-family: 'PT Sans', sans-serif;
+  padding: 15px 0 15px 0 !important;
+  font-size: 13px;
+}
+
+footer#colophon .site-info a {
+  text-decoration: underline;
+}

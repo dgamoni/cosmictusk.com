@@ -1,0 +1,970 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Literatum\n"
+"POT-Creation-Date: 2017-08-22 13:06+0200\n"
+"PO-Revision-Date: 2017-08-22 13:07+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:19
+msgid "Page not found."
+msgstr "Página no encontrada."
+
+#: 404.php:24
+#, php-format
+msgid "Go back to a %s."
+msgstr "Volver a %s."
+
+#: comments-wordpress.php:16 comments-wordpress.php:34
+msgid "Comment navigation"
+msgstr "Navegación de comentarios"
+
+#: comments-wordpress.php:17 comments-wordpress.php:35
+msgid "&larr; Older Comments"
+msgstr "&larr; Comentarios anteriores"
+
+#: comments-wordpress.php:18 comments-wordpress.php:36
+msgid "Newer Comments &rarr;"
+msgstr "Comentarios Recientes &rarr;"
+
+#: comments-wordpress.php:46
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#: index.php:12
+msgid "Please, select a template in Settings -> Reading"
+msgstr "Por favor, selecciona una plantilla en Settings -> Reading"
+
+#: kohette-framework/functions/basic-functions.php:347
+msgid "Invalid arguments."
+msgstr "Argumentos inválidos."
+
+#: kohette-framework/modules/admin-pages-creator/admin-pages-creator.php:173
+msgid "Settings saved."
+msgstr "Opciones guardadas."
+
+#: kohette-framework/modules/settings-creator/options/option-font/option-font.php:35
+msgid "Normal"
+msgstr "Normal"
+
+#: kohette-framework/modules/settings-creator/options/option-font/option-font.php:36
+msgid "Italic"
+msgstr "Itálica"
+
+#: kohette-framework/modules/settings-creator/options/option-font/option-font.php:37
+msgid "Oblique"
+msgstr "Oblicua "
+
+#: kohette-framework/modules/settings-creator/options/option-font/option-font.php:151
+msgid "Unit"
+msgstr "Unidad"
+
+#: kohette-framework/modules/settings-creator/options/option-font/option-font.php:178
+msgid "Default"
+msgstr "Por defecto"
+
+#: kohette-framework/modules/settings-creator/options/option-font/option-font.php:180
+msgid "Basic fonts"
+msgstr "Fuentes básicas"
+
+#: kohette-framework/modules/settings-creator/options/option-font/option-font.php:186
+msgid "Google fonts"
+msgstr "Fuentes Google"
+
+#: kohette-framework/modules/settings-creator/options/option-font/option-font.php:201
+msgid "Regular"
+msgstr "Regular"
+
+#: kohette-framework/modules/settings-creator/options/option-font/option-font.php:227
+msgid "Font style"
+msgstr "Estilo de fiente"
+
+#: kohette-framework/modules/settings-creator/options/option-font/option-font.php:246
+msgid "Line height"
+msgstr "Altura de linéaire"
+
+#: kohette-framework/modules/settings-creator/options/option-image/option-image.php:42
+#: kohette-framework/modules/taxonomy-controls/taxonomy-controls.php:354
+#: taxonomies/user/user_features/user-profile-avatar/user-profile-avatar.php:46
+#: taxonomies/user/user_features/user-profile-background/user-profile-background.php:50
+msgid "Select image"
+msgstr "Selecciona imagen"
+
+#: kohette-framework/modules/settings-creator/options/option-image/option-image.php:51
+#: kohette-framework/modules/taxonomy-controls/taxonomy-controls.php:363
+#: taxonomies/user/user_features/user-profile-avatar/user-profile-avatar.php:55
+#: taxonomies/user/user_features/user-profile-background/user-profile-background.php:59
+msgid "Remove"
+msgstr "Eliminar"
+
+#: post-interview-support/post-interview-support.php:16
+msgid "Interview variables"
+msgstr "Variables de entrevit"
+
+#: post-interview-support/post-interview-support.php:33
+#: post-types/post/post-features/post-interview-support/post-interview-support.php:35
+msgid ""
+"If this article includes an interview and special controls have been used to "
+"enter questions and answers, complete the following fields."
+msgstr ""
+"Si este artículo contiene una entrevista y han sido usados los controles de "
+"preguntas y respuestas, completa los siguientes campos."
+
+#: post-interview-support/post-interview-support.php:38
+#: post-types/post/post-features/post-interview-support/post-interview-support.php:40
+msgid "Interviewer"
+msgstr "Entrevistador"
+
+#: post-interview-support/post-interview-support.php:39
+#: post-types/post/post-features/post-interview-support/post-interview-support.php:41
+msgid "insert the name of the <b>interviewer</b>"
+msgstr "Introduce el nombre del <b>entrevistador</b>"
+
+#: post-interview-support/post-interview-support.php:51
+#: post-types/post/post-features/post-interview-support/post-interview-support.php:53
+msgid "Interviewed"
+msgstr "Entrevistado"
+
+#: post-interview-support/post-interview-support.php:52
+#: post-types/post/post-features/post-interview-support/post-interview-support.php:54
+msgid "insert the name of the <b>interviewed</b>"
+msgstr "introduce el nombre del <b>entrevistado</b>"
+
+#: post-interview-support/post-interview-support.php:142
+#: post-types/post/post-features/post-interview-support/post-interview-support.php:110
+msgid "Question"
+msgstr "Pregunta"
+
+#: post-interview-support/post-interview-support.php:145
+#: post-types/post/post-features/post-interview-support/post-interview-support.php:113
+msgid "Answer"
+msgstr "Respuesta"
+
+#: post-types/post/post-features/post-co-authors/post-co-authors-columns.php:29
+msgid "Co-Authors"
+msgstr "Co-autores"
+
+#: post-types/post/post-features/post-co-authors/post-co-authors-columns.php:113
+msgid "No date"
+msgstr ""
+
+#: post-types/post/post-features/post-co-authors/post-co-authors-columns.php:141
+#, php-format
+msgid "%s usuarios"
+msgstr ""
+
+#: post-types/post/post-features/post-co-authors/post-co-authors-columns.php:183
+msgid "Sin recurrencia"
+msgstr ""
+
+#: post-types/post/post-features/post-co-authors/post-co-authors.php:12
+msgid "Post Co-Authors"
+msgstr "Co-autores del post"
+
+#: post-types/post/post-features/post-co-authors/post-co-authors.php:48
+msgid "Here you can add users as co-authors of the post."
+msgstr "Aquí puedes añadir usuarios que aparecerán como co-autores del post."
+
+#: post-types/post/post-features/post-credits/post-credits.php:16
+msgid "Post Credits"
+msgstr "Créditos del post"
+
+#: post-types/post/post-features/post-credits/post-credits.php:51
+msgid ""
+"If necessary, insert credits for this post. This field is useful to add "
+"image credits and post's copyright related stuff."
+msgstr ""
+"Si es necesario, introduce créditos por este post. Este campo es útil para "
+"añadir créditos de imagen o informacion de copyright sobre el post."
+
+#: post-types/post/post-features/post-custom-comments-form/post-custom-comments-form.php:34
+msgid "Leave your comment here..."
+msgstr "Escribe tu comentario aquí…"
+
+#: post-types/post/post-features/post-custom-comments-form/post-custom-comments-form.php:54
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: post-types/post/post-features/post-custom-subtitle-metabox/post-custom-subtitle-metabox.php:11
+msgid "Subtitle"
+msgstr "Subtítulo"
+
+#: post-types/post/post-features/post-custom-subtitle-metabox/post-custom-subtitle-metabox.php:59
+msgid "Insert a subtitle for your post. You can use format tags."
+msgstr ""
+"Introduce un subtítulo para tu post. Puedes utilizar etiquetas de formato."
+
+#: post-types/post/post-features/post-custom-title-metabox/post-custom-title-metabox.php:11
+msgid "Title"
+msgstr "Título"
+
+#: post-types/post/post-features/post-custom-title-metabox/post-custom-title-metabox.php:52
+msgid "Insert a title for your post. You can use format tags."
+msgstr ""
+"Introduce un título para tu post. Puedes utilizar etiquetas de formato."
+
+#: post-types/post/post-features/post-featured-video/post-featured-video.php:26
+msgid "Featured video"
+msgstr "Video destacado"
+
+#: post-types/post/post-features/post-featured-video/post-featured-video.php:61
+msgid "Remove featured video"
+msgstr "Eliminar video destacado"
+
+#: post-types/post/post-features/post-featured-video/post-featured-video.php:68
+msgid "Select a video from the Media library or upload a new one."
+msgstr "Selecciona un video de la librería de medios o sube uno nuevo."
+
+#: post-types/post/post-features/post-featured-video/post-featured-video.php:68
+msgid "Also you can use a YouTube video url."
+msgstr "También puedes usar una url de video de Youtube."
+
+#: post-types/post/post-features/post-featured-video/post-featured-video.php:70
+msgid "Introduce the URL of the video file or a YouTube video url."
+msgstr "Introduce una url de archivo de video o una url de video de YouTube."
+
+#: post-types/post/post-features/post-featured-video/post-featured-video.php:87
+msgid "Select from library"
+msgstr "Seleccionar de la librería"
+
+#: post-types/post/post-features/post-featured-video/post-featured-video.php:90
+msgid "Use URL"
+msgstr "Usar URL"
+
+#: post-types/post/post-features/post-featured-video/post-featured-video.php:94
+msgid "Available formats:"
+msgstr "Formatos disponibles:"
+
+#: post-types/post/post-features/post-featured-video/post-featured-video.php:153
+msgid ""
+"The introduced URL does not seem as a valid video file. Please, introduce a "
+"valid video file URL."
+msgstr ""
+"La url introducida no parece una url de video válida. Por favor, introduce "
+"una url correcta."
+
+#: post-types/post/post-features/post-interview-support/post-interview-support.php:13
+msgid "Interview"
+msgstr "Entrevista"
+
+#: post-types/post/post-features/post-share-vars/post-share-vars.php:81
+msgid ""
+"Fill this fields to make the site and the articles fully shareables in "
+"social media sites."
+msgstr ""
+"Rellena estos campos para compartir los artículos del sitio con las redes "
+"sociales."
+
+#: post-types/post/post-features/post-share-vars/share-to-facebook.php:18
+#: theme-features/site-thirdparty-comments/third-party/facebook/form.php:34
+msgid "Facebook App ID"
+msgstr "App ID de Facebook"
+
+#: post-types/post/post-features/post-share-vars/share-to-facebook.php:20
+#, php-format
+msgid "Add the Facebook app ID of %s in Facebook."
+msgstr "Introduce el App ID de %s en Facebook"
+
+#: post-types/post/post-features/post-share-vars/share-to-facebook.php:30
+msgid "Facebook Page URL"
+msgstr "URL de página de Facebook"
+
+#: post-types/post/post-features/post-share-vars/share-to-facebook.php:32
+#, php-format
+msgid "Insert the <b>full url</b> of the page of %s in Facebook."
+msgstr "Introduce la <b>url completa</b> de la página de %s en Facebook."
+
+#: post-types/post/post-features/post-share-vars/share-to-twitter.php:20
+msgid "Site Twitter"
+msgstr "Twitter del sitio"
+
+#: post-types/post/post-features/post-share-vars/share-to-twitter.php:22
+#, php-format
+msgid "Add the username of %s in Twitter. (without @)"
+msgstr "Añade el nombre de usuario de %s en Twitter (sin @)"
+
+#: post-types/post/post-features/post-sharecontent/post-sharecontent.php:91
+msgid "Enable share content tooltip"
+msgstr "Habilita el tooltip de contenido"
+
+#: post-types/post/post-features/post-sharecontent/post-sharecontent.php:92
+msgid ""
+"Display a tooltip with share links when the user selects an extract of the "
+"article's content."
+msgstr ""
+
+#: post-types/post/post-features/post-sharecontent/post-sharecontent.php:93
+msgid "Check this option to active the share tooltip"
+msgstr ""
+
+#: post-types/post/post-features/post-words-counter/post-words-counter.php:16
+#: post-types/post/post-features/post-words-counter/post-words-counter.php:18
+msgid "Read Time"
+msgstr ""
+
+#: post-types/post/post-features/post-words-counter/post-words-counter.php:31
+msgid "Read Time for articles"
+msgstr ""
+
+#: post-types/post/post-features/post-words-counter/post-words-counter.php:32
+msgid "Configure the Read Time option for articles."
+msgstr ""
+
+#: post-types/post/post-features/post-words-counter/post-words-counter.php:44
+msgid "Display Read Time"
+msgstr ""
+
+#: post-types/post/post-features/post-words-counter/post-words-counter.php:45
+msgid "Active the display of the read time option in the articles."
+msgstr ""
+
+#: post-types/post/post-features/post-words-counter/post-words-counter.php:46
+msgid "Check this option if you want to active read time"
+msgstr ""
+
+#: post-types/post/post-features/post-words-counter/post-words-counter.php:62
+msgid "Display Type"
+msgstr ""
+
+#: post-types/post/post-features/post-words-counter/post-words-counter.php:63
+msgid "Choose display type."
+msgstr ""
+
+#: post-types/post/post-features/post-words-counter/post-words-counter.php:64
+msgid "Select between display the read time or the number of words."
+msgstr ""
+
+#: post-types/post/post-features/post-words-counter/post-words-counter.php:67
+msgid "Read time"
+msgstr ""
+
+#: post-types/post/post-features/post-words-counter/post-words-counter.php:68
+msgid "Words count"
+msgstr ""
+
+#: taxonomies/category/category_features/category-featured-image/category-featured-image.php:12
+#: taxonomies/tag/tag_features/tag-featured-image/tag-featured-image.php:12
+msgid "Featured Image"
+msgstr ""
+
+#: taxonomies/category/category_features/category-featured-image/category-featured-image.php:13
+msgid "Attach a featured image for the category."
+msgstr ""
+
+#: taxonomies/category/category_features/category-templates/category-templates.php:16
+#: taxonomies/category/category_table.php:46
+#: taxonomies/tag/tag_features/tag-templates/tag-templates.php:16
+#: taxonomies/tag/tag_table.php:46
+#: theme-features/site-custom-templates-system/site-custom-templates-system.php:200
+msgid "Template"
+msgstr ""
+
+#: taxonomies/category/category_features/category-templates/category-templates.php:17
+msgid "Select a template for this category."
+msgstr ""
+
+#: taxonomies/tag/tag_features/tag-featured-image/tag-featured-image.php:13
+msgid "Attach a featured image for the tag."
+msgstr ""
+
+#: taxonomies/tag/tag_features/tag-templates/tag-templates.php:17
+msgid "Select a template for this tag."
+msgstr ""
+
+#: taxonomies/user/user_features/user-profile-avatar/user-profile-avatar.php:30
+msgid "Profile avatar"
+msgstr ""
+
+#: taxonomies/user/user_features/user-profile-avatar/user-profile-avatar.php:43
+msgid "Profile avatar image"
+msgstr ""
+
+#: taxonomies/user/user_features/user-profile-avatar/user-profile-avatar.php:118
+msgid "Select or upload an image to show as profile avatar."
+msgstr ""
+
+#: taxonomies/user/user_features/user-profile-background/user-profile-background.php:34
+msgid "Profile background"
+msgstr ""
+
+#: taxonomies/user/user_features/user-profile-background/user-profile-background.php:47
+msgid "Profile background image"
+msgstr ""
+
+#: taxonomies/user/user_features/user-profile-background/user-profile-background.php:122
+msgid "Select or upload an image to show as profile background."
+msgstr ""
+
+#: taxonomies/user/user_features/user-profile-template/user-profile-template.php:40
+msgid "Profile template"
+msgstr ""
+
+#: taxonomies/user/user_features/user-profile-template/user-profile-template.php:50
+msgid "Select a template to use in the profile page of this user."
+msgstr ""
+
+#: taxonomies/user/user_features/user-social-fields/user-social-fields.php:19
+msgid "Facebook username"
+msgstr ""
+
+#: taxonomies/user/user_features/user-social-fields/user-social-fields.php:27
+msgid "Twitter username"
+msgstr ""
+
+#: taxonomies/user/user_features/user-social-fields/user-social-fields.php:35
+msgid "Instagram username"
+msgstr ""
+
+#: template-literatum-columns.php:42 template-literatum-grid.php:138
+#: template-literatum-list.php:37 template-literatum-profile.php:161
+msgid "Sorry, no results found."
+msgstr ""
+
+#: template-literatum-columns.php:89 template-literatum-list.php:112
+#: template-literatum-profile.php:233
+msgid "Continue reading"
+msgstr "Continuar leyendo"
+
+#: template-literatum-grid.php:16 template-simple-featured-image.php:18
+#: template-simple-page.php:16
+msgid "Display / Hide Elements"
+msgstr "Mostrar / Esconder Elementos"
+
+#: template-literatum-grid.php:17 template-simple-featured-image.php:19
+#: template-simple-page.php:17
+msgid "Check the elements to display in this template."
+msgstr "Marca los elementos que se deberían mostrar en esta plantilla."
+
+#: template-literatum-grid.php:21 template-simple-featured-image.php:23
+msgid "Post categories"
+msgstr "Categorías de post"
+
+#: template-literatum-grid.php:22 template-simple-featured-image.php:24
+msgid "Share buttons"
+msgstr "Botones de compartir"
+
+#: template-literatum-grid.php:23 template-simple-featured-image.php:25
+msgid "Post author"
+msgstr "Autor de la entrada"
+
+#: template-literatum-grid.php:24 template-simple-featured-image.php:26
+msgid "Post comments count"
+msgstr "Número de comentarios de la entrada"
+
+#: template-literatum-grid.php:25
+msgid "Load more button"
+msgstr "Botón “Cargar mas”"
+
+#: template-literatum-grid.php:39 template-simple-featured-image.php:44
+msgid "Post read time"
+msgstr "Tiempo de lectura de la entrada"
+
+#: template-literatum-grid.php:210
+msgid "Load more"
+msgstr "Cargar más"
+
+#: template-literatum-list.php:107 template-literatum-profile.php:228
+#: theme-features/site-theme-custom-functions/site-theme-custom-functions.php:152
+#: theme-features/site-theme-custom-functions/site-theme-custom-functions.php:275
+#, php-format
+msgid "%s min read"
+msgstr "%s min lectura"
+
+#: template-simple-featured-image.php:27 template-simple-page.php:21
+msgid "Navigation buttons"
+msgstr "Botones de navegación"
+
+#: template-simple-featured-image.php:28
+msgid "Next post preview"
+msgstr "Previsualización siguiente entrada"
+
+#: template-simple-featured-image.php:275
+msgid "Next article"
+msgstr "Siguiente artículo"
+
+#: theme-features/site-ajax-animations/ajax-animations-admin.php:10
+msgid "No animation"
+msgstr "Sin animación"
+
+#: theme-features/site-ajax-animations/ajax-animations-admin.php:16
+msgid "Transition Effect"
+msgstr "Efecto de transición"
+
+#: theme-features/site-ajax-animations/ajax-animations-admin.php:17
+msgid "Select an animation effect to use in AJAX transitions"
+msgstr ""
+
+#: theme-features/site-ajax-navigation/site-ajax-navigation.php:621
+#: theme-features/site-ajax-navigation/site-ajax-navigation.php:636
+msgid "AJAX Navigation"
+msgstr "Navegación AJAX"
+
+#: theme-features/site-ajax-navigation/site-ajax-navigation.php:622
+#, php-format
+msgid ""
+"AJAX Navigation can be activated with just one click to accelerate and "
+"approach the navigation throughout %s."
+msgstr ""
+
+#: theme-features/site-ajax-navigation/site-ajax-navigation.php:637
+msgid "Active dynamic navigation in the site."
+msgstr ""
+
+#: theme-features/site-custom-scripts/site-custom-scripts.php:317
+msgid "Custom Scripts"
+msgstr ""
+
+#: theme-features/site-custom-scripts/site-custom-scripts.php:318
+msgid "Custom options related with site's scripts"
+msgstr ""
+
+#: theme-features/site-custom-scripts/site-custom-scripts.php:319
+msgid "Custom scripts"
+msgstr ""
+
+#: theme-features/site-custom-scripts/site-custom-scripts.php:333
+msgid "Extra footer scripts"
+msgstr ""
+
+#: theme-features/site-custom-scripts/site-custom-scripts.php:335
+msgid "Insert javascript file url"
+msgstr ""
+
+#: theme-features/site-custom-scripts/site-custom-scripts.php:336
+msgid ""
+"You can add extra script files to the queue. This extra files will be added "
+"in the footer."
+msgstr ""
+
+#: theme-features/site-custom-scripts/site-custom-scripts.php:352
+msgid "Extra footer JS code"
+msgstr ""
+
+#: theme-features/site-custom-scripts/site-custom-scripts.php:354
+msgid "This extra JS code will appear in the footer of the page."
+msgstr ""
+
+#: theme-features/site-custom-styles/site-custom-styles.php:214
+#: theme-features/site-custom-styles/site-custom-styles.php:216
+msgid "Custom styles"
+msgstr ""
+
+#: theme-features/site-custom-styles/site-custom-styles.php:215
+msgid "Custom options related with site's styles"
+msgstr ""
+
+#: theme-features/site-custom-styles/site-custom-styles.php:230
+msgid "Extra styles"
+msgstr ""
+
+#: theme-features/site-custom-styles/site-custom-styles.php:232
+msgid "Insert style file url"
+msgstr ""
+
+#: theme-features/site-custom-styles/site-custom-styles.php:233
+msgid ""
+"You can add extra style files to the queue. This extra files will be added "
+"in the head of the page."
+msgstr ""
+
+#: theme-features/site-custom-styles/site-custom-styles.php:249
+msgid "Extra css code"
+msgstr ""
+
+#: theme-features/site-custom-styles/site-custom-styles.php:251
+msgid ""
+"This extra css code will appear in the head of the page, just after the "
+"style links."
+msgstr ""
+
+#: theme-features/site-custom-templates-system/site-custom-templates-system.php:24
+msgid "Templates"
+msgstr ""
+
+#: theme-features/site-custom-templates-system/site-custom-templates-system.php:25
+msgid "Customize and configure the theme's templates."
+msgstr ""
+
+#: theme-features/site-custom-templates-system/site-custom-templates-system.php:33
+msgid "Default Templates"
+msgstr ""
+
+#: theme-features/site-custom-templates-system/site-custom-templates-system.php:34
+msgid "Select the default templates to use in the site"
+msgstr ""
+
+#: theme-features/site-custom-templates-system/site-custom-templates-system.php:49
+msgid "Post Template"
+msgstr ""
+
+#: theme-features/site-custom-templates-system/site-custom-templates-system.php:50
+msgid "Select the default template to use in posts pages."
+msgstr ""
+
+#: theme-features/site-custom-templates-system/site-custom-templates-system.php:70
+msgid "Page Template"
+msgstr ""
+
+#: theme-features/site-custom-templates-system/site-custom-templates-system.php:71
+msgid "Select the default template to use in pages."
+msgstr ""
+
+#: theme-features/site-custom-templates-system/site-custom-templates-system.php:90
+msgid "Category Template"
+msgstr ""
+
+#: theme-features/site-custom-templates-system/site-custom-templates-system.php:91
+msgid "Select the default template to use in category pages."
+msgstr ""
+
+#: theme-features/site-custom-templates-system/site-custom-templates-system.php:109
+msgid "Tag Template"
+msgstr ""
+
+#: theme-features/site-custom-templates-system/site-custom-templates-system.php:110
+msgid "Select the default template to use in tag pages."
+msgstr ""
+
+#: theme-features/site-custom-templates-system/site-custom-templates-system.php:128
+msgid "Archive Template"
+msgstr ""
+
+#: theme-features/site-custom-templates-system/site-custom-templates-system.php:129
+msgid "Select the default template to use in archive pages."
+msgstr ""
+
+#: theme-features/site-custom-templates-system/site-custom-templates-system.php:147
+msgid "Search Template"
+msgstr ""
+
+#: theme-features/site-custom-templates-system/site-custom-templates-system.php:148
+msgid "Select the default template to use in search pages."
+msgstr ""
+
+#: theme-features/site-custom-templates-system/site-custom-templates-system.php:165
+msgid "Author Template"
+msgstr ""
+
+#: theme-features/site-custom-templates-system/site-custom-templates-system.php:166
+msgid "Select the default template to use in author profile pages."
+msgstr ""
+
+#: theme-features/site-customize/site-typography.php:22
+msgid "Fonts & Typography"
+msgstr ""
+
+#: theme-features/site-customize/site-typography.php:23
+msgid "Customize the theme's typography related elements."
+msgstr ""
+
+#: theme-features/site-customize/site-typography.php:37
+msgid "Typography Typefaces"
+msgstr ""
+
+#: theme-features/site-customize/site-typography.php:38
+#, php-format
+msgid "Select the custom typefaces to use in %s."
+msgstr ""
+
+#: theme-features/site-customize/site-typography.php:52
+msgid "Titles typeface"
+msgstr ""
+
+#: theme-features/site-customize/site-typography.php:53
+msgid "This is the typeface used in titles."
+msgstr ""
+
+#: theme-features/site-customize/site-typography.php:79
+msgid "Headlines typeface"
+msgstr ""
+
+#: theme-features/site-customize/site-typography.php:80
+msgid "This is the typeface used by headlines and subtitles."
+msgstr ""
+
+#: theme-features/site-customize/site-typography.php:105
+msgid "Content typeface"
+msgstr ""
+
+#: theme-features/site-customize/site-typography.php:106
+msgid "This is the typeface used in post/page contents."
+msgstr ""
+
+#: theme-features/site-customize/site-typography.php:134
+msgid "Body typeface"
+msgstr ""
+
+#: theme-features/site-customize/site-typography.php:135
+msgid "This is the typeface used by default in the site."
+msgstr ""
+
+#: theme-features/site-customize/site-typography.php:175
+msgid "Basic Typography"
+msgstr ""
+
+#: theme-features/site-customize/site-typography.php:176
+msgid "Configure the basic typography of the site."
+msgstr ""
+
+#: theme-features/site-customize/site-typography.php:192
+msgid "Default site font"
+msgstr ""
+
+#: theme-features/site-customize/site-typography.php:193
+msgid "This is the font used in the entire site by default."
+msgstr ""
+
+#: theme-features/site-customize/site-typography.php:219
+msgid "Headline 1"
+msgstr ""
+
+#: theme-features/site-customize/site-typography.php:220
+msgid "Adjust the size and line height used in h1 tags."
+msgstr ""
+
+#: theme-features/site-customize/site-typography.php:247
+msgid "Headline 2"
+msgstr ""
+
+#: theme-features/site-customize/site-typography.php:248
+msgid "Adjust the size and line height used in h2 tags."
+msgstr ""
+
+#: theme-features/site-customize/site-typography.php:275
+msgid "Headline 3"
+msgstr ""
+
+#: theme-features/site-customize/site-typography.php:276
+msgid "Adjust the size and line height used in h3 tags."
+msgstr ""
+
+#: theme-features/site-customize/site-typography.php:311
+msgid "Post/Pages Typography"
+msgstr ""
+
+#: theme-features/site-customize/site-typography.php:312
+msgid ""
+"Configure the typography of the site used by default in posts and pages."
+msgstr ""
+
+#: theme-features/site-customize/site-typography.php:323
+msgid "Content"
+msgstr ""
+
+#: theme-features/site-customize/site-typography.php:324
+msgid ""
+"Adjust the font style of text used in main contents of the site. This font "
+"style is used in the body content of posts and pages by default."
+msgstr ""
+
+#: theme-features/site-material-icons/site-material-icons.php:59
+msgid "Material Icons"
+msgstr ""
+
+#: theme-features/site-material-icons/site-material-icons.php:60
+msgid "Active material icons."
+msgstr ""
+
+#: theme-features/site-material-icons/site-material-icons.php:61
+msgid "Check this option to active material icons in the site."
+msgstr ""
+
+#: theme-features/site-menu-slots/site-menu-slots.php:13
+msgid "Primary Menu"
+msgstr ""
+
+#: theme-features/site-menu-slots/site-menu-slots.php:16
+msgid "Sidebar Bottom Menu"
+msgstr ""
+
+#: theme-features/site-settings-posts-template/site-settings-posts-template.php:11
+msgid "Posts frontpage"
+msgstr ""
+
+#: theme-features/site-settings-posts-template/site-settings-posts-template.php:12
+msgid "Select a template to display posts."
+msgstr ""
+
+#: theme-features/site-settings-posts-template/site-settings-posts-template.php:13
+msgid "Select a template to display your latest posts"
+msgstr ""
+
+#: theme-features/site-settings-slogan/site-settings-slogan.php:16
+msgid "Website Slogan"
+msgstr ""
+
+#: theme-features/site-settings-slogan/site-settings-slogan.php:18
+msgid "This text will be displayed next to the website logo/name."
+msgstr ""
+
+#: theme-features/site-settings-slogan/site-settings-slogan.php:21
+msgid ""
+"This is the website slogan, it can be edited in Appearance / Customize / "
+"Site Identity. You can display here a brief description of your site with <a "
+"target=\"_blank\" href=\"http://twitter.com/mrrafaelmartin\">links</a> and "
+"<u>some</u> text <strong>format</strong>."
+msgstr ""
+
+#: theme-features/site-settings-website-firm/site-settings-website-firm.php:18
+msgid "Website Firm"
+msgstr ""
+
+#: theme-features/site-settings-website-firm/site-settings-website-firm.php:20
+msgid "This text will appear in the bottom side of the sidebar."
+msgstr ""
+
+#: theme-features/site-theme-custom-functions/site-theme-custom-functions.php:41
+msgid "Filed in"
+msgstr "Archivado en"
+
+#: theme-features/site-theme-custom-functions/site-theme-custom-functions.php:73
+msgid "Tweet"
+msgstr "Twittear"
+
+#: theme-features/site-theme-custom-functions/site-theme-custom-functions.php:80
+msgid "Share"
+msgstr "Compartir"
+
+#: theme-features/site-theme-custom-functions/site-theme-custom-functions.php:87
+msgid "Read later"
+msgstr "Leer más tarde"
+
+#: theme-features/site-theme-functions/site-theme-functions.php:19
+#: theme-features/site-theme-functions/site-theme-functions.php:39
+#: theme-features/site-theme-functions/site-theme-functions.php:59
+msgid "Previous"
+msgstr "Anterior"
+
+#: theme-features/site-theme-functions/site-theme-functions.php:24
+#: theme-features/site-theme-functions/site-theme-functions.php:38
+#: theme-features/site-theme-functions/site-theme-functions.php:50
+msgid "Next"
+msgstr "Siguiente"
+
+#: theme-features/site-theme-functions/site-theme-functions.php:72
+#: theme-features/site-theme-functions/site-theme-functions.php:82
+#: theme-features/site-theme-functions/site-theme-functions.php:84
+msgid "Next page"
+msgstr "Siguiente página"
+
+#: theme-features/site-theme-functions/site-theme-functions.php:73
+#: theme-features/site-theme-functions/site-theme-functions.php:91
+#: theme-features/site-theme-functions/site-theme-functions.php:93
+msgid "Previous page"
+msgstr "Página anterior"
+
+#: theme-features/site-theme-supports-image-sizes/site-theme-supports-image-sizes.php:27
+msgid "Square 500"
+msgstr ""
+
+#: theme-features/site-theme-supports-image-sizes/site-theme-supports-image-sizes.php:28
+msgid "Square 1000"
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/site-thirdparty-comments.php:32
+#: theme-features/site-thirdparty-comments/site-thirdparty-comments.php:34
+#: theme-features/site-thirdparty-comments/third-party/facebook/hooks&functions.php:45
+msgid "Comments"
+msgstr "Comentarios"
+
+#: theme-features/site-thirdparty-comments/site-thirdparty-comments.php:33
+#, php-format
+msgid "Comments settings for %s."
+msgstr "Opciones de comentarios para %s."
+
+#: theme-features/site-thirdparty-comments/site-thirdparty-comments.php:49
+msgid "Comments system"
+msgstr "Sistema de comentarios"
+
+#: theme-features/site-thirdparty-comments/site-thirdparty-comments.php:51
+#, php-format
+msgid "Select what type of comments system you want to use in %s."
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/third-party/disqus/form.php:21
+msgid "Disqus configuration"
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/third-party/disqus/form.php:22
+msgid "Fill the fileds with your Disqus information."
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/third-party/disqus/form.php:34
+msgid "Disqus shortname"
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/third-party/disqus/form.php:36
+msgid ""
+"Tells the Disqus service your forum's shortname, which is the unique "
+"identifier for your website as registered on Disqus. If undefined, the "
+"Disqus embed will not load."
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/third-party/disqus/form.php:51
+msgid "Disable mobile"
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/third-party/disqus/form.php:52
+msgid ""
+"Tells the Disqus service to never use the mobile optimized version of Disqus."
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/third-party/facebook/form.php:21
+msgid "Facebook configuration"
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/third-party/facebook/form.php:22
+msgid "Configure Facebook comments for your site."
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/third-party/facebook/form.php:36
+msgid "Initialize the Facebook JavaScript SDK using this app."
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/third-party/facebook/form.php:51
+msgid "Number of comments"
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/third-party/facebook/form.php:53
+msgid "Number of comments to load by default."
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/third-party/facebook/form.php:67
+msgid "Comments order"
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/third-party/facebook/form.php:69
+msgid "The order to use when displaying comments."
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/third-party/facebook/form.php:72
+msgid "Social relevance"
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/third-party/facebook/form.php:73
+msgid "Recents first"
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/third-party/facebook/form.php:74
+msgid "Older first"
+msgstr ""
+
+#: theme-features/site-thirdparty-comments/third-party/google/hooks&functions.php:38
+msgid "View comments"
+msgstr ""
+
+#: theme-features/widget-areas/widget-areas.php:13
+msgid ""
+"The widgets introduced in this área appear on the sidebar in every page. Use "
+"this area to display the most popular widgets of the site such as the search "
+"widget or the main navigation menu widget."
+msgstr ""

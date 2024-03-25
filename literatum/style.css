@@ -1,0 +1,135 @@
+/*
+Theme Name: Literatum
+Theme URI: http://kohette.com/wpthemes/literatum/
+Author: Rafael Martín
+Author URI: http://rafaelmartin.dribbble.com
+Description: Literatum is a perfect theme for writers and online journals/magazines that are looking to display their articles in a clean and modern way, with an easy navigation and focusing the reader's attention on the content.
+Version: 2.0.4
+Text Domain: literatum
+Tags:
+
+
+Changelog:
+Version 2.0.4
+- Added format for ordered and unordered lists
+- Added format for blockquotes
+- Added post date option in "photo grid" template display options
+- Fixed bug with large integers and rand function
+Version 2.0.3
+- Added a custom color templates system.
+- Fixed bug related with image links and AJAX navigation.
+- Fixed style related bugs in posts content elements.
+Version 2.0.2
+- Fixed little bug with header when website slogan it's not filled
+- Fixed bug with template selector en category objects
+Version 2.0.1
+- Added .mo and .po files for spanish traduction
+- Added option to adjust content width in post template
+- Added new template "Masonry columns" available for categories, tags, archive, users, search and front page.
+- Revised format for code, pre, tables, list elements.
+- Revised next/previous links.
+Version 2.0.0
+- The whole source code has been re-coded from scratch.
+- Design has been re-stylized
+- New Ajax navigation system
+- Various page transitions effects for AJAX navigation
+- Co-authors! now you can indicate multiple authors for any post
+- AngularJS integrated
+- Template selector for posts individually
+- Custom user avatars improved
+- Support for material icons (https://material.io/icons/)
+- All the main custom options are now placed in appearance -> customize
+- New template system allow interchangeable templates between WordPress objects (posts, authors, pages, categories, etc)
+- Support for Youtube videos as post covers
+- Titles and subtitles allow now text format
+- Inteview controls improved
+- The typography/typefaces/fonts options are now located in the customize menu and organized in a way that maintains a consistent design throughout the theme
+- Removed CSS/JS Combine feature (hello HTTP/2!)
+- Fixed minor bugs
+Version 1.4.3 - 13 September 2016
+- Improved KTT framework (engine thats runs under the theme)
+- Improved CSS combine function (added cache, better performance and other options).
+- Added "Load your custom css styles urls" option
+- Added "Load your own js files" option.
+- Added the option to execute js code in the footer
+- Fixed minor bugs
+Version 1.4.2 - 24 March 2016
+- Fixed strange characters in share popups
+- Fixed minor bugs
+Version 1.4.1 - 21 March 2016
+- Fixed minor bugs and some warning messages.
+Version 1.4.0 - 10 March 2016
+- Fixed strange characters on share buttons
+- Fixed the featured images for categories bug
+- Fixed minor bugs
+Version 1.3.9 - 06 July 2015
+- Added fix by 25thfloor (http://themeforest.net/item/literatum-just-write/8523411/comments?page=19&filter=all#comment_10431905)
+- Added fix by dennytang (http://themeforest.net/item/literatum-just-write/8523411/comments?page=18&filter=all#comment_10396415)
+- Fixed minor bugs
+Version 1.3.8 - 07 April 2015
+- Added display post categories option for big covers.
+- AJAX improvements
+- Fixed minor bugs
+Version 1.3.7 - 12 February 2015
+- Better performance
+- Fixed minor bugs
+Version 1.3.6 - 22 December 2014
+- Fully tested with the latest version of WordPress
+- Customize options for the sidebar
+- Search widget redesigned
+- Improved code.
+Version 1.3.5 - 05 November 2014
+- Literatum is now compatible with Aesop Story Engine plugin!
+- Added filter by category for posts in frontpage.
+- Fixed minor bugs.
+Version 1.3.4 - 14 October 2014
+- Added support for Jetpack's carrousel and galleries.
+- Fixed minor bugs.
+Version 1.3.3 - 09 October 2014
+- Added content share tooltip for articles
+- Fixed minor bugs
+Version 1.3.2 - 24 September 2014
+- Added options to change the style of the frontpage and customize it.
+- Fixed minor bugs.
+Version 1.3.1 - 19 September 2014
+- Added widget area for posts content.
+- Fixed minor bugs.
+Version 1.3.0 - 7 September 2014
+- Added support to Google+ comments
+- Combine CSS feature improved
+- Fixed minor bugs.
+Version 1.2.9 - 5 September 2014
+- Added option to set the post content width.
+- Added options to customize the font style of the main menu and site slogan.
+- Fixed archive page for posts.
+- Fixed minor bugs.
+Version 1.2.8 - 1 September 2014
+- Added subtitles for posts.
+- Added quit button in the push menu for mobile devices.
+- The theme it's now compatible with PHP 5.2.x.
+- Added Font Manager with hundreds of Google fonts.
+- A lot of new customize options.
+- Fixed minor bugs.
+Version 1.2.7 - 29 August 2014
+- Fixed CSS combine bug and other minor bugs.
+Version 1.2.6 - 18 August 2014
+- Fixed minor bugs
+Version 1.2.5 - 18 August 2014
+- Added Facebook Comments support.
+- Added Disqus comments support.
+- Fixed minor bugs.
+Version 1.2.4 - 15 August 2014
+- Added "back to top" button.
+- Added read time for posts.
+- fixed minor bugs.
+Version 1.2.3 - 14 August 2014
+- Added support for Google Analytics
+- Fixed bug in iOS (Thanks to Jonas! @jfanc)
+- Fixed minor bugs.
+Version 1.2.2 - 13 August 2014
+- Added video covers for posts.
+- Moved the basic options to the menu "theme options".
+- Fixed minor bugs.
+Version 1.2.1 - 11 August 2014
+- Release.
+*/
